@@ -11,6 +11,8 @@
 #include <string.h>
 #include <ctype.h>
 
+extern int push_arg;
+
 /**
  * struct stack_s - doubly linked list representation of stacks (or queues)
  * @n : integer
